@@ -16,7 +16,7 @@ class UserInfo extends React.Component{
         <h3>Job: {displayed.title}</h3>
         <h3>Employer: {displayed.employer}</h3>
         <h3>Favorite Movies: </h3>
-        <ol>{favMovies}</ol>
+        <ol className='fav-movies'>{favMovies}</ol>
         <h2 className='index-people'>{`${displayed.id}/${numberPeople}`}</h2>
       </section>
     )
